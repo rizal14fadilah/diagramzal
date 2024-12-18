@@ -1,0 +1,53 @@
+/* Styling untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007BFF; /* Menggunakan warna hijau untuk header */
+    color: white;
+}
+
+th.bulan-header {
+    background-color: #007BFF; /* Warna biru untuk kolom Bulan */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Styling untuk header bulan */
+th[colspan="12"] {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Styling untuk container */
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling untuk grafik */
+canvas {
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
